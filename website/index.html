@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+	<html>
+
+		<head>
+
+			<title>Vente de bateaux</title>
+
+			<link rel="stylesheet" type="text/css" href="style.css">
+
+		</head>
+
+		<body>
+
+			<header style="background-image: url('image/boat.jpeg');">
+
+				<div class="container">
+
+					<h1>Vente de bateaux</h1>
+
+						<nav>
+
+							<ul>
+
+								<li><a href="#">Accueil</a></li>
+
+								<li><a href="#">Bateaux</a></li>
+
+								<li><a href="#">Contact</a></li>
+
+							</ul>
+
+						</nav>
+
+				</div>
+
+			</header>
+
+			<main>
+
+				<section id="boats">
+
+					<h2>Nos bateaux</h2>
+
+					<ul>
+
+						<li>
+
+							<img src="image/sailing-boat.jpg" alt="Voilier">
+
+							<h3>Voilier</h3>
+
+							<p>Découvrez la beauté de la navigation à voile avec nos voiliers de luxe.</p>
+
+							<a href="#">Acheter maintenant</a>
+
+						</li>
+
+						<li>
+
+							<img src="image/yacht.jpg" alt="Yacht">
+
+							<h3>Yacht</h3>
+
+							<p>Profitez d'un style de vie exclusif à bord de nos yachts haut de gamme.</p>
+
+							<a href="#">Acheter maintenant</a>
+
+						</li>
+
+						<li>
+
+							<img src="image/speedboat.jpg" alt="Bateau rapide">
+
+							<h3>Bateau rapide</h3>
+
+							<p>Explorez les mers avec vitesse et confort à bord de nos bateaux rapides.</p>
+
+							<a href="#">Acheter maintenant</a>
+
+						</li>
+
+					</ul>
+		
+				</section>
+
+				<section id="contact">
+
+					<h2>Nous contacter</h2>
+
+					<form id="contact-form" method="post" action="https://example.com/form/submit">
+
+						<label for="name">Nom :</label>
+
+						<input type="text" id="name" name="name" required>
+
+						<label for="email">Email :</label>
+
+						<input type="email" id="email" name="email" required>
+
+						<label for="message">Message :</label>
+
+						<textarea id="message" name="message" required></textarea>
+
+						<button type="submit">Envoyer</button>
+
+					</form>
+
+				</section>
+
+				<section id="typeform">
+
+					<h2>Remplissez notre formulaire</h2>
+
+					<script src="https://embed.typeform.com/embed.js"></script>
+
+					<script>
+
+						var typeform = window.typeform || [];
+
+						typeform.push({
+
+						"iframeSrc": "https://your-typeform-url"
+
+						});
+
+					</script>
+
+					<button id="typeform-button" onclick="openTypeform()">Ouvrir le formulaire</button>
+
+					<script>
+
+						function openTypeform() {
+
+							typeform.showWidget('your-typeform-url', {
+
+							"mode": "drawer_left",
+
+							"autoOpen": false,
+
+							"hideScrollbars": true,
+
+							"hideFooter": true
+
+							});
+
+						}
+
+					</script>
+
+				</section>
+
+			</main>

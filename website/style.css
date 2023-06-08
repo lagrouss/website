@@ -1,0 +1,255 @@
+/* RESET CSS */
+
+* {
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+/* GLOBAL STYLES */
+
+body {
+
+font-family: Arial, sans-serif;
+
+font-size: 16px;
+
+line-height: 1.5;
+
+color: #333;
+
+background-color: #f5f5f5;
+
+}
+
+a {
+
+color: #092030;
+
+text-decoration: none;
+
+}
+
+a:hover {
+
+text-decoration: underline;
+
+}
+
+h1, h2, h3 {
+
+margin-bottom: 20px;
+
+}
+
+header {
+
+background-color: #fff;
+
+padding: 20px;
+
+box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+
+position: sticky;
+
+top: 0;
+
+z-index: 999;
+
+}
+
+nav ul {
+
+list-style: none;
+
+display: flex;
+
+justify-content: flex-end;
+
+}
+
+nav ul li {
+
+margin-left: 20px;
+
+}
+
+nav ul li:first-child {
+
+margin-left: 0;
+
+}
+
+nav ul li a {
+
+font-weight: bold;
+
+}
+
+main {
+
+max-width: 1200px;
+
+margin: 0 auto;
+
+padding: 40px;
+
+}
+
+section {
+
+margin-bottom: 60px;
+
+}
+
+h2 {
+
+font-size: 32px;
+
+}
+
+ul {
+
+list-style: none;
+
+display: flex;
+
+flex-wrap: wrap;
+
+}
+
+li {
+
+flex-basis: 33.33%;
+
+text-align: center;
+
+margin-bottom: 40px;
+
+}
+
+img {
+
+max-width: 100%;
+
+}
+
+h3 {
+
+margin-top: 20px;
+
+margin-bottom: 10px;
+
+}
+
+p {
+
+margin-bottom: 20px;
+
+}
+
+a.button {
+
+background-color: #0077cc;
+
+color: #fff;
+
+padding: 10px 20px;
+
+border-radius: 5px;
+
+display: inline-block;
+
+}
+
+a.button:hover {
+
+background-color: #005ea6;
+
+}
+
+/* CONTACT FORM STYLES */
+
+form label {
+
+display: block;
+
+margin-bottom: 10px;
+
+}
+
+form input, form textarea {
+
+padding: 10px;
+
+border-radius: 5px;
+
+border: 1px solid #ccc;
+
+width: 100%;
+
+margin-bottom: 20px;
+
+}
+
+form button {
+
+background-color: #0077cc;
+
+color: #fff;
+
+padding: 10px 20px;
+
+border-radius: 5px;
+
+border: none;
+
+cursor: pointer;
+
+}
+
+form button:hover {
+
+background-color: #005ea6;
+
+}
+
+/* TYPEFORM STYLES */
+
+#typeform {
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+}
+
+#typeform-button {
+
+background-color: #0077cc;
+
+color: #fff;
+
+padding: 10px 20px;
+
+border-radius: 5px;
+
+border: none;
+
+cursor: pointer;
+
+margin-top: 20px;
+
+}
+
+#typeform-button:hover {
+
+background-color: #005ea6;
+
+}
